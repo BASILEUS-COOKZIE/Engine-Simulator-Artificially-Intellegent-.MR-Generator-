@@ -1,0 +1,574 @@
+[
+ {
+  "prompt": "I want a v12 firing order of 1 2 9 10 5 6 then give it 180 degrees 7 8 3 4 11 12 make it fire in pairs of two",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "v",
+   "firing": "pairs",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "I want them to be perfectly even spaced pairs and also make the idle flow metric 0",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make it so that 1 2 11 12 5 6 are all on one exhaust and the rest on there own",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "exhaust",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make the intake runner cross section around 5.5cm2 and increase both the intake and exhaust runner volumes to 2.5x there size",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "intake",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Close up the idle it's idling at around 5400 right now but I want more around 500-1000rpm",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "down"
+  }
+ },
+ {
+  "prompt": "It's now at 2400",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "down"
+  }
+ },
+ {
+  "prompt": "It stalls now",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Try 0.001 up",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make it a single exhaust and reduce frequency too 5k",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make the idle 0.99835",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Increase clutch torque by 10 percent and make the idle 0.9985",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "clutch",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Make the exhaust runner cross section 6cm2 and make the idle 0.9984",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "exhaust",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make the starter rpm 450 and decrease the starter torque by 10%",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make it so bank A and B share the exact same cam design",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "cam",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make both the heads equal attenuation with bank a's 5.0 and lower the chamber volume too 46cc",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "compression",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make a variant of this engine with a firing order of 1 2 9 10 5 6 as a whole pair that fires together",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "v",
+   "firing": "groups",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Increase the idle on this it's struggling and stalling at around 1k rn so get in the range of 1.5",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "idle",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Make it so there is now four pairs the new two both being half of the origin pairs all separate by 180",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "v",
+   "firing": "groups",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make a variant with three pairs of four cylinders that fires together",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "v",
+   "firing": "groups",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make it so the outer most 8 cylinders fire individually and the inner most 4 fire combined as one pair",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "v",
+   "firing": "groups",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make it so one side has a bigger bore than the other",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make a variant of this which is just an inline two but one cylinder is 1 liter and has a small 250 cc cylinder connected vertically to it",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "inline",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make it so the small cylinder is angled 90 degrees from the point of the big one",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Extend the rod length on the big cylinder by 20mms",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Make the chamber volume of the small cylinder 15% of its size",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "compression",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make the small cylinders chamber volume 10cc",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "compression",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "The clutch torque needs to go up a bit and the gears can be lengthen to the 180 range keeping 1-3 short but fast enough to be at 100 by 3rd",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "gearing",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Clutch torque should be around 225",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "clutch",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Rework the weights gearbox and such for this size engine",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "gearing",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Rework the main cylinders cam for high rpm",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "cam",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Give it an ultra high performance intake exhaust and cams for each cylinder but make it so it's aimed at absolute peak power high rpm",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "power",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "You've dramatically decreased power but rpm is reaching ten k peaks",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "power",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Okay it's making nearly 200 torque and over 200 hp so increase from here keeping it similar as it goes",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "power",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Making less torque but everything else has improved",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "torque",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Ports seemed good",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "ports",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Go too step three",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "ports",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Increase other metrics for step four anything you haven't changed yet",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "power",
+   "dir": "up"
+  }
+ },
+ {
+  "prompt": "Make a radial engine where each cylinder gets smaller sequentially",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "radial",
+   "firing": "none",
+   "taper": "yes",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Increase the rpm limit to 12k",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "redline",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Make it a twin bank 4 with the order inverted on the rear bank maintain it's tapering design",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "radial2",
+   "firing": "none",
+   "taper": "yes",
+   "invert": "yes",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "I meant a twin bank radial 14 where it's one side has the smaller cylinders and the exact other side has the small cylinders",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "radial2",
+   "firing": "none",
+   "taper": "yes",
+   "invert": "yes",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make it a twin bank radial with inverted order and tapering",
+  "labels": {
+   "intent": "new_engine",
+   "layout": "radial2",
+   "firing": "none",
+   "taper": "yes",
+   "invert": "yes",
+   "exhaust": "none",
+   "target": "none",
+   "dir": "none"
+  }
+ },
+ {
+  "prompt": "Make the inline two with the small cylinder angled 25 degrees so the v angle is 25",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "set"
+  }
+ },
+ {
+  "prompt": "Double it",
+  "labels": {
+   "intent": "edit",
+   "layout": "none",
+   "firing": "none",
+   "taper": "no",
+   "invert": "no",
+   "exhaust": "none",
+   "target": "other",
+   "dir": "up"
+  }
+ }
+]
